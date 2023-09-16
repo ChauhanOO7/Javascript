@@ -3,7 +3,7 @@
 /*
 In var-
 1.we can redeclare and updated.
-2.Both global and block scoped.
+2.Both global and function scoped.
 
 In let-
 1.we can not redeclare but update it.
