@@ -47,7 +47,7 @@ initialized is called Temporal Dead Zone for the variable.
 During this zone javascript will always through a reference error if anyone tries to access those variables. 
 */
 
-//* to avoid temporal zone you have to initialize variables at the top of the program.
+//* to avoid temporal zone you have to declare variables at the top of the program.
 
 //correct code-
 

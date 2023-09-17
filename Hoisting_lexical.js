@@ -34,6 +34,8 @@ function num1()
 
 scope of variable- Accessibility of a particular variable within the program.*/
 
+//block-- grouping of multiple statements to appear as a single statement.It is done by { } these braces.
+
 /* lexical environment--
 A lexical environment is a data structure that holds identifier-variable mapping.
 (here identifier refers to the name of variables/functions, and the variable is the reference to actual
