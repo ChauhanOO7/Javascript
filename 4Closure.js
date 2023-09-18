@@ -20,6 +20,7 @@ function pick_inside_value()
 let m=pick_inside_value();
 console.log(m);
 
+
 function z()
 {
     let val=100;
@@ -32,7 +33,15 @@ function z()
         }
         return x();
     }
-    return y();
+    return y;       //bleow 2nd point talking about this, but if (return y()) then read 1st point below.
 }
 
-z();
+z()();          //you can imagine that it is written in the form of y() as z()=y;
+
+/*
+important-
+1.The z function is called, and it returns the result of calling y(), which in turn returns the result of calling x().
+
+2.The z function is called, but this time it returns the y function itself (not the result of calling it). So, when you run z(), it does not 
+execute the entire chain of functions immediately. Instead, it returns the y function.
+*/
