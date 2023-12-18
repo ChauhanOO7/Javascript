@@ -1,0 +1,27 @@
+1. What is javascript runtime environment and it components?
+-> A JavaScript runtime environment is where JavaScript code is executed. There are two main runtime environments for JavaScript:
+a. Browser
+b. Server.
+
+A JavaScript runtime environment consists of the following components:
+
+A "JavaScript engine" that interprets and executes the code.
+"Web APIs" that provide access to various functionalities, such as the DOM, timers, fetch, etc.
+A "callback queue" that stores the callbacks from the Web APIs
+A "job queue" that stores the promises and async/await operations
+An "event loop" that checks the callback and job queues and pushes them to the JavaScript engine when the call stack is empty.
+
+example of runtime environment: nodejs.
+
+2. What are the components does js engine have?
+-> Parser
+   Abstract Syntax Tree (AST)
+   Interpreter
+   Profiler
+   Compiler
+   Optimized code
+   Call Stack
+   Memory Heap
+
+-> The first JavaScript engines were mere interpreters, but all relevant modern engines use just-in-time compilation for improved performance.
+

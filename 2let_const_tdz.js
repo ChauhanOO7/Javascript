@@ -35,7 +35,7 @@ Explanation:
 
 1.First of all the Global execution context will be created.
 2.And then the memory allocation phase starts, During this, the variable x got a place in memory and javascript puts undefined there.
-3.And then the variable z gets space in a different place of memory(TDZ or another place named Script) and same as variable x then undefined wil
+3.And then the variable z gets space in a different place of memory(TDZ or another place named Script) and same as variable x then undefined will
 be assigned as value.
 4.Then the thread execution phase starts, During this console.log(x) statement executes and prints the value of x, which is undefined.
 5.In the next line, there is console.log(z), javascript will throw ReferenceError and the program will stop here.

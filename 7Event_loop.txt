@@ -1,0 +1,17 @@
+1. What is Event Loop?
+
+->  An event loop is something that pulls stuff out of the queue and places it onto the function execution stack(call stack) whenever
+the function stack becomes empty.
+
+->The event loop is the secret by which JavaScript gives us an illusion of being multithreaded even though it is single-threaded.
+
+2. Why do we need event loop?
+
+-> To handle the events efficiently.
+
+3. How it works?
+
+-> take a look on event1 to event6 images.(present in the folder)
+
+
+
