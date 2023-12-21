@@ -5,7 +5,7 @@ There are 4 promises apis-:
 3. promise.race()
 4. promise.any()
 
-imp-> these all apis take an array as a input and give output as an array.
+imp-> these all apis take an array as a input and give output as an array or a value.
 
 1. promise.all() :
 

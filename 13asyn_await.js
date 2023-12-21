@@ -13,8 +13,8 @@ imp->  async function always return a promise and if not return a promise then i
 3. Why we need async and await both at the same time?
 -> It is used to handle promises.
 
-imp-> asyn/await functionality helps you to make your promise execute where it is called if you
-not used asyn/await function then it will execute your promise in the end.
+imp-> asyn/await functionality helps you to make your promise execute where it is called(or if you want your promises execute in a order)
+if you not used asyn/await function then it will execute your promise in the end.
 like you see in normal code which is written below.
 
 imp-> if you using await with a promise then no need of using then you can directly use promise anywhere.
