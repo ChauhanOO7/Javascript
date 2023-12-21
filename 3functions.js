@@ -50,4 +50,15 @@ numbers.forEach((number) => console.log(number + 1));
 /*
 Arrow function-> 
 
+function name(number)
+{
+    console.log(number);
+}
+
+now this function in form of arrow function:
+
+(number)=>{
+    console.log(number);
+}
+
 */

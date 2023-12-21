@@ -17,6 +17,7 @@ Syntax:
     -> length;
     -> join();
     -> forEach();
+    -> pop()
 */
 
 let ratings=[1,2,3,4,5];
